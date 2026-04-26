@@ -1,2 +1,13 @@
 # Predicting-Consumer-Purchase-intention-using-Twitter-Data
 The rapid rise of e-commerce has transformed consumer decision-making and brand interaction. Twitter stands out as a platform where users share opinions, compare products, seek recommendations, and signal purchase intentions. These tweets provide a rich source of real-time insights into consumer behavior and buying patterns.
+
+
+This project is concerned with developing a machine learning-based system for the effective prediction of consumer purchase intention through the analysis of user-generated content in social media, particularly on Twitter. With millions of users voicing their interests, opinions, and buying decisions online, social platforms become helpfully indicative of emerging market trends and consumer behavior. With access to such information, decision-making by marketers, retailers, and businesses can be successfully improved.
+
+For this purpose, a tweet dataset was developed that consisted of columns like tweet text, region, product, timestamp, and purchase intention label. This was then cleaned and pre-processed using NLP techniques for which noise removal, tokenization, lemmatization, and sentiment analysis were used. Every single tweet was converted into meaningful numerical representations using TF-IDF, Sentiment Scores, and Sentence Transformer embeddings, which capture semantic information more effectively than traditional techniques.
+
+Various machine learning models were trained and tested: Logistic Regression, Naive Bayes, SVM, Decision Tree, and MLP. Their performance was then compared using various metrics: accuracy, precision, recall, F1 score, and ROC-AUC. The model with the highest performance was then saved and integrated into a prediction function that can analyze new, unseen tweets. Advanced visualizations have been created to show purchase intention distribution across regions, such as India vs. the USA, and across specific products, like the iPhone.
+
+An extended version of the system was also implemented using BERT, a state-of-the-art deep learning model. Significant improvement in contextual pattern understanding was seen in the system for consumer language, leading to more accurate intention prediction after fine-tuning BERT.
+
+The final system offers a scalable, data-driven approach that will help organizations understand consumers' preferences and develop globally optimized product marketing strategies, hence targeting potential buyers more effectively. Insights provided by this project can feed into market forecasting, product positioning, and customer segmentation in a highly competitive digital landscape.
